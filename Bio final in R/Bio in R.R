@@ -1,4 +1,3 @@
-# Assignment Script
 
 # Change working directory.
 # change this to your own directory
@@ -9,6 +8,7 @@ untar(file_name)
 
 # change directory to the extracted folders 
 setwd(paste(getwd() , "/brca_tcga_pan_can_atlas_2018", sep = ""))
+
 
 # data_clinical_patient.txt, data_mrna_seq_v2_rsem.txt, data_mutations.txt and data_cna.txt
 clinical = read.delim("data_clinical_patient.txt")
